@@ -2,11 +2,11 @@
 #include<math.h>
 int main()
 {
- int num,power;
+ int num=0,power=0;
  printf("Enter the number: ");
  scanf("%d",&num);
- printf("Entered the power ")
- scanf("%d",&power)
- printf("The given power of %d is :%d",num,pow(num,power));
+ printf("Entered the power: ");
+ scanf("%d",&power);
+ printf("%lf",pow(num,power));
  return 0;
 }
